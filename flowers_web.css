@@ -1,0 +1,41 @@
+@charset "utf-8";
+body{
+	background-color: black;
+}
+.container {
+    width: 1200px;
+    margin: 35px auto; /* centers content */
+    background-color:#afd1da;
+    border: 1.5px solid #605F73; /* border adobe color */
+    border-radius: 10px;
+}
+.image{
+	height: 750px;
+	width: 100%;
+	background: #C3D9FC;
+	z-index: 1;
+}
+
+h1{
+	line-height: 1.4em;
+	font-size: 24px;
+	text-align: center;
+	font-family: "amatic sc";
+   	color: #3F1D40;
+}
+
+#wildflower_field {
+	background: url(images/wildflowers_web_1.jpg) repeat;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+#wildflower_field_2 {
+	background: url(images/wildflowers_web_1.jpg) repeat;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

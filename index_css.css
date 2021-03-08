@@ -1,0 +1,63 @@
+@charset "utf-8";
+body{
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+
+img{
+	position: absolute;
+}
+
+.arch{
+	left: 2552px;
+	top: 523px;
+}
+
+.black_lodge{
+	left: 936px;
+	top: 570px;
+}
+
+.tp_noise{
+	position: absolute;
+	left: 1225px;
+	top: 950px;
+	z-index:10;
+}
+
+.bw_stat{
+	left: 1739px;
+	top: 1114px;
+}
+
+.color_stat{
+	left: 203px;
+	top: 978px;
+}
+
+.static_noise{
+	position: absolute;
+	left: 203px;
+	top: 1450px;
+	z-index:10;
+}
+
+.flowers{
+	left: 2558px;
+	top: 1657px;
+}
+
+.flower_noise{
+	position: absolute;
+	left: 2558px;
+	top: 2050px;
+	z-index:10;
+}
+
+.explosion{
+	left: 896px;
+	top: 1656px;
+	opacity: 0.9;
+}
